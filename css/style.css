@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002776;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    height: 40px;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(to right, #002776, #005aaa);
+    color: white;
+}
+
+.hero .text-box {
+    max-width: 600px;
+}
+
+.hero .text-box span {
+    color: cyan;
+}
+
+.hero .icons i {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: cyan;
+    color: #002776;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.hero-img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.planos {
+    padding: 40px;
+    text-align: center;
+}
+
+.plano-card {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #002776;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
